@@ -10,6 +10,6 @@ Play against the computer in multiple rounds and see who wins overall!
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors-python.git
+   git clone https://github.com/primecodez/rock-paper-scissors-python.git
    cd rock-paper-scissors-python
 
