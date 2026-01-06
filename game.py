@@ -8,7 +8,7 @@ def get_user_input():
     if choice in ["rock", "paper", "scissor"]:
         return choice
     else:
-        print("Invalid input. Please choose (rock, paper, scissor).")
+        print("Invalid input. Please choose  from (rock, paper, scissor).")
         return get_user_input()
 
 def get_computer_input():
@@ -51,7 +51,7 @@ def main():
         else:
             print("This round is a draw!")
 
-        print("-" * 20)
+        print("-" * 30)
 
     # Final overall result
     print("\nFinal Results:")
@@ -61,9 +61,9 @@ def main():
     if user_score > computer_score:
         print("🎉 You are the overall winner!")
     elif computer_score > user_score:
-        print("💻 Computer is the overall winner!")
+        print("😈Computer is the overall winner!")
     else:
-        print("🤝 It's an overall tie!")
+        print("😎 It's an overall tie!")
 
 if __name__ == "__main__":
     main()
